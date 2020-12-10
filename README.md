@@ -11,5 +11,7 @@ Play the game by running play.exe. You can set player types via two flags, "-b" 
 |e|Edge AI: The computer will choose a valid move that leads to the best board state, not looking ahead any further than this move. It prefers edges and corners.|
 |f|First-move AI: The computer just makes the first legal move it finds.|
 
+For example, to play a game between two bots, where the white player uses the edge strategy, and the black player uses the minimax strategy, you would run "./play.exe -w e -b m"
+
 
 When playing the game, specify the location at which you want to place a piece via a two digit number "xy", where x is the row, and y is the column.
